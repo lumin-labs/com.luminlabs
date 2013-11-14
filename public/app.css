@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(fonts/KT3KS9Aol4WfR6Vas8kNcg.woff) format('woff');
+}
+
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(fonts/lato.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(fonts/lato-light-italic.woff) format('woff');
+}
+
+body{
+	/*padding-top: 75px;*/
+	font-family: 'Lato', sans-serif !important;
+}
+
+.icon-logo{
+	height:40px;
+	/*margin-top: -13px;*/
+}
+
+.navbar-inverse{
+	background: #221c24;
+}
+
+.navbar-brand{
+	color:#ffeeaa !important;
+	font-size: 3.5em;
+	font-weight: 300;
+	vertical-align: bottom;
+	line-height: .8em;
+}
+
+.nav{
+	font-size: 1.3em;
+}
+
+.nav li a{
+	padding: 29px;
+}
+
+h1{
+color:orange;
+text-align:left;
+}
+
+.img-thumb{
+	max-width:360px;
+}
+
+p{
+	font-size: 14px;
+}
+
+.marketing .text{
+	text-align: left;
+	padding: 0 30px;
+}
+
+.marketing .col-lg-4 p{
+	margin-left: 0px;
+}
+
+.section_header {
+width: 100%;
+margin-bottom: 60px;
+}
+
+.section_header h3{
+font-family: 'Lato', sans-serif !important;
+color: #646464;
+font-weight: 300;
+font-style: italic;
+font-size: 27px;
+border-bottom: 1px solid #b3b3b3;
+padding-bottom: 0px;
+display: inline-block;
+margin: 0;
+}
