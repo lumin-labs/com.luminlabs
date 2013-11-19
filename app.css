@@ -63,6 +63,10 @@ text-align:left;
 	max-height:500px;
 }
 
+.stars{
+	color:orange;
+}
+
 p{
 	font-size: 14px;
 }
