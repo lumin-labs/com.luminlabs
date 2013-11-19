@@ -21,7 +21,7 @@
 }
 
 body{
-	/*padding-top: 75px;*/
+	padding-top: 75px;
 	font-family: 'Lato', sans-serif !important;
 }
 
@@ -61,6 +61,14 @@ text-align:left;
 
 .img-thumb{
 	max-width:360px;
+}
+
+.img-large{
+	max-height:500px;
+}
+
+.stars{
+	color:orange;
 }
 
 p{
