@@ -54,6 +54,10 @@ h1{
 color:orange;
 text-align:left;
 }
+.img-profile{
+	max-width: 150px;
+	
+}
 
 .img-thumb{
 	max-width:360px;
