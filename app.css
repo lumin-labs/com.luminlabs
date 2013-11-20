@@ -30,6 +30,10 @@ body{
 	/*margin-top: -13px;*/
 }
 
+.navbar-wrapper .navbar{
+	border-radius: 0;
+}
+
 .navbar-inverse{
 	background: #221c24;
 }
@@ -39,7 +43,15 @@ body{
 	font-size: 3.5em;
 	font-weight: 300;
 	vertical-align: bottom;
-	line-height: .8em;
+	line-height: .9em;
+	background-image: url(img/lumin-logo-light-two.png);
+	background-repeat: no-repeat;
+	background-position: 0 -63px;
+	padding-left: 35px;
+}
+
+.navbar-brand:hover{
+	background-position: 0 17px;
 }
 
 .nav{
