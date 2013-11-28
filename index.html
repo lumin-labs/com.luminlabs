@@ -26,6 +26,9 @@
     <!-- Custom styles for this template -->
     <link href="lib/bootstrap/css/carousel.css" rel="stylesheet">
 
+    <!-- Foundation 5 -->
+    <!-- <link rel="stylesheet" type="text/css" href="lib/foundation/css/foundation.min.css"> -->
+
     <!-- <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic" rel="stylesheet" type="text/css"> -->
     <link rel="stylesheet" type="text/css" href="app.css">
 
@@ -47,7 +50,7 @@
               </a>
             </div>
             <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav pull-right">
+              <!-- <ul class="nav navbar-nav pull-right">
                 <li class=""><a href="#">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact us.html">Contact</a></li>
@@ -63,7 +66,7 @@
                     <li><a href="#">One more separated link</a></li>
                   </ul>
                 </li>
-              </ul>
+              </ul> -->
             </div>
           </div>
         </div>
@@ -75,28 +78,13 @@
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol>
-      <div class="carousel-inner" style="background-color:red;">
-        <div class="item active">
-          <img data-src="holder.js/imac-hoh/auto/#777:#7a7a7a/text:First slide" alt="">
-          <div class="container">
-            <div class="carousel-caption" style="padding-bottom:0px;margin-bottom:-20px;padding-top:0px;">
-              <div class="row">
-                <div class="col-md-12">
-                  <h2 class="text-center" style="margin-bottom:50px;">We build Websites and Business Software</h2>
-                  <img class="" src="img/screenshot-group.png">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="">
-          <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
+      <div class="carousel-inner">
+        <div class="item active" style="">
           <div class="container">
             <div class="carousel-caption" style="bottom:-10px;">
               <div class="row">
@@ -123,20 +111,39 @@
             </div>
           </div>
         </div>
-        <div class="item">
-          <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
+        <div class="item" style="">
           <div class="container">
-            <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            <div class="carousel-caption" style="bottom:-10px;">
+              <div class="row">
+              <div class="col-md-7 text-left">
+                  <img class="img-thumb-md" src="img/macbook-wen.png">
+                </div>
+                <div class="col-md-5 text-left">
+                  <h1>Business Software</h1>
+                  <p>We can improve your workflow</p>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item ">
+          <div class="container">
+            <div class="carousel-caption" style="padding-bottom:0px;margin-bottom:-20px;padding-top:0px;">
+              <div class="row">
+                <div class="col-md-12">
+                  <h2 class="text-center" style="margin-bottom:50px;">Check out our <a href="#services">Services</a></h2>
+                  <img class="img-large" src="img/screenshot-group.png">
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->
+    </div>
 
 
 
@@ -146,88 +153,117 @@
 
   
 
-    <div class="container marketing">
-      <div class="section_header">
+    <div class="container marketing" id="services">
+      
+    <div class="row" style="margin-top:80px;">
+      <div class="col-lg-12">
+        <div class="section_header" >
           <h3>Our Services</h3>
+        </div>
       </div>
-
+    </div>
       <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-sm-4">
           <img class="img img-thumbnail img-thumb" src="img/thumb-small-hoh.png">
           <div class="text">
             <h2>Web Design</h2>
             <p class="">We build beautiful websites using the latest open source tools to reduce costs. We test our designs on peer review networks to ensure that we meet high quality standards.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
             </div>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
+        <div class="col-sm-4">
 
           <img class="img img-thumbnail img-thumb" src="img/thumb-small-wen.png">
           <div class="text">
             <h2>Software Development</h2>
             <p class="">We build desktop software for businesses and educational institutions to make their work easier and more reliable. We use the same web development tools to keep costs low.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
           </div><!-- /.col-lg-4 -->
         </div>
-        <div class="col-lg-4">
+        <div class="col-sm-4">
           <img class="img  img-thumbnail img-thumb" src="img/thumb-small-training.png ">
           <div class="text">
             <h2>Training</h2>
             <p class="">We host "flipped" classes using MOOCs for instruction. Students meet in class twice a week for assistance with assignments and peer collaboration.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
           </div>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
+      </div>
 
 
       <!-- START THE FEATURETTES -->
+      <div style="background-color:#f8f8f8; margin-top:40px;padding-bottom:40px;">
+      <div class="container">
 
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="img/500x500.png" alt="Generic placeholder image">
+        <div class="row" style="margin-top:40px;">
+        <div class="col-lg-12">
+          <div class="section_header" >
+            <h3>Our Practice</h3>
+          </div>
         </div>
       </div>
 
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="img/500x500.png" alt="Generic placeholder image">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Custom Solutions <br><span class="text-muted">Standard Software</span></h2>
+            <p class="lead">We use open source software to produce your custom 
+            website. This means your website will benefit from the latest 
+            advances and best practices in web development. You will also have a 
+            worldwide community of developers who understand how your software works.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-responsive img-thumbnail" src="img/screenshot-bootstrap-500.png" alt="Generic placeholder image">
+          </div>
         </div>
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-      </div>
 
-      <hr class="featurette-divider">
+        <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="row featurette">
+          <div class="col-md-5">
+            <img class="featurette-image img-responsive img-thumbnail" src="img/screenshot-criticue-500.png" alt="Generic placeholder image">
+          </div>
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Peer Review <br><span class="text-muted"> Quality Control</span></h2>
+            <p class="lead">We use criticue.com to peer review our web design. 
+            We provide you with a steady stream of objective third-party 
+            feedback that you can use to guide your decisions about your website.  
+            </p>
+          </div>
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="img/500x500.png" alt="Generic placeholder image">
-        </div>
-      </div>
 
-      <hr class="featurette-divider">
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Expert Team<br/><span class="text-muted"> World Class Education</span></h2>
+            <p class="lead">Our team is trained with online courses from Stanford, MIT, and 
+            UC Berkeley, to ensure we are always evolving. This means you benefit from the 
+            latest best practices in software engineering.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-responsive img-thumbnail" src="img/screenshot-edx-500.png" alt="Generic placeholder image">
+          </div>
+        </div>
+        </div>
+        </div>
+
+<div style="background-color:#fbfbfb; padding:40px 0;">
+        <div class="container marketing" style="">
+          <h1>Email us: <a href="mailto:team@luminlabs.com">team@luminlabs.com</a> </h1>
+          </div>
+          </div>
 
       <!-- /END THE FEATURETTES -->
 
 
       <!-- FOOTER -->
       <footer>
+        <div class="container marketing">
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2013 Lumin Labs</p>
+        </div>
       </footer>
 
     </div><!-- /.container -->
@@ -236,7 +272,11 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="lib/jquery/jquery-1.10.2.min.js"></script>
-    // <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/foundation/js/jquery.js"></script>
+    
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+    
+
   </body>
 </html>
