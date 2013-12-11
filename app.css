@@ -68,8 +68,13 @@ h1{
 color:orange;
 text-align:left;
 }
+
+.profiles{
+	padding-bottom: 20px;
+}
+
 .img-profile{
-	max-width: 100px;
+	max-height: 100px;
 	
 }
 
@@ -146,7 +151,7 @@ p{
 
 .section_header {
 width: 100%;
-margin-bottom: 60px;
+margin-bottom: 40px;
 }
 
 .section_header h3{
@@ -161,9 +166,9 @@ display: inline-block;
 margin: 0;
 }
 
+
 footer{
 	padding: 40px 0;
-	margin-top: 40px;
 	background-color: #777;
 	color:#fff;
 }
