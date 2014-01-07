@@ -21,13 +21,18 @@
 }
 
 body{
-	/*padding-top: 75px;*/
+	padding-top: 20px;
+	padding-bottom: 0px;
 	font-family: 'Lato', sans-serif !important;
 }
 
 .icon-logo{
 	height:40px;
 	/*margin-top: -13px;*/
+}
+
+.navbar-wrapper .navbar{
+	border-radius: 0;
 }
 
 .navbar-inverse{
@@ -39,7 +44,15 @@ body{
 	font-size: 3.5em;
 	font-weight: 300;
 	vertical-align: bottom;
-	line-height: .8em;
+	line-height: .9em;
+	background-image: url(img/lumin-logo-light-two.png);
+	background-repeat: no-repeat;
+	background-position: 0 -63px;
+	padding-left: 35px;
+}
+
+.navbar-brand:hover{
+	background-position: 0 17px;
 }
 
 .nav{
@@ -48,14 +61,20 @@ body{
 
 .nav li a{
 	padding: 29px;
+	text-decoration: n
 }
 
 h1{
 color:orange;
 text-align:left;
 }
+
+.profiles{
+	padding-bottom: 20px;
+}
+
 .img-profile{
-	max-width: 150px;
+	max-height: 100px;
 	
 }
 
@@ -63,8 +82,62 @@ text-align:left;
 	max-width:360px;
 }
 
+.img-thumb-md{
+	max-width:500px;
+}
+
+
+.img-large{
+	max-width:841px;
+}
+
+.stars{
+	color:orange;
+}
+
+.carousel{
+	margin-bottom: -20px;
+}
+
+.carousel-inner{
+	background-image: url(img/bg.jpg);
+
+}
+
+.carousel .item {
+  height: 480px;
+  background-color: transparent;
+}
+
+
+.left.carousel-control,
+.right.carousel-control{
+	background-image: none;
+}
+
+.carousel-indicators{
+	bottom:-40px;
+}
+
+.carousel-indicators li{
+	border:solid 1px #666;
+}
+
+.carousel-indicators .active{
+	background-color:#666;
+}
+
+.featurette-divider {
+	/*margin: 30px 0;*/
+}
+
+
 p{
 	font-size: 14px;
+}
+
+.marketing .col-lg-4{
+	margin-bottom: 0px;
 }
 
 .marketing .text{
@@ -78,7 +151,7 @@ p{
 
 .section_header {
 width: 100%;
-margin-bottom: 60px;
+margin-bottom: 40px;
 }
 
 .section_header h3{
@@ -91,4 +164,15 @@ border-bottom: 1px solid #b3b3b3;
 padding-bottom: 0px;
 display: inline-block;
 margin: 0;
+}
+
+
+footer{
+	padding: 40px 0;
+	background-color: #777;
+	color:#fff;
+}
+
+footer a{
+	color:#9BCDEA;
 }
