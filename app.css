@@ -52,7 +52,7 @@ body{
 }
 
 .navbar-brand:hover{
-	background-position: 0 17px;
+	/*background-position: 0 17px;*/
 }
 
 .nav{
