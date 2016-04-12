@@ -26,6 +26,10 @@ body{
 	font-family: 'Lato', sans-serif !important;
 }
 
+.employee_name{
+  margin-top: 0px;
+}
+
 .icon-logo{
 	height:40px;
 	/*margin-top: -13px;*/
@@ -75,7 +79,7 @@ text-align:left;
 
 .img-profile{
 	max-height: 100px;
-	
+
 }
 
 .img-thumb{
